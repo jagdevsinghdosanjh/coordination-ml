@@ -1,0 +1,92 @@
+# -------------------------
+# Python cache & bytecode
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# Virtual environments
+# -------------------------
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# -------------------------
+# Jupyter notebooks
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# VS Code settings
+# -------------------------
+.vscode/
+.settings/
+
+# -------------------------
+# Data files
+# -------------------------
+data/raw/*
+data/processed/*
+data/external/*
+
+# Keep folder structure
+!data/raw/.keep
+!data/processed/.keep
+!data/external/.keep
+
+# -------------------------
+# Model artifacts
+# -------------------------
+models/saved/*.pkl
+models/saved/*.joblib
+models/saved/*.onnx
+
+# -------------------------
+# Logs
+# -------------------------
+logs/
+*.log
+
+# -------------------------
+# Streamlit cache
+# -------------------------
+.streamlit/
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# -------------------------
+# FastAPI / Uvicorn
+# -------------------------
+*.db
+*.sqlite3
+
+# -------------------------
+# Parquet / Feather / Pickle
+# -------------------------
+*.parquet
+*.feather
+*.pickle
+
+# -------------------------
+# OS-specific junk
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Build / dist
+# -------------------------
+build/
+dist/
+*.egg-info/
+
+# -------------------------
+# Temporary files
+# -------------------------
+tmp/
+temp/
+*.tmp

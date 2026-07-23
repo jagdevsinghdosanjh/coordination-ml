@@ -1,0 +1,20 @@
+ligand_strength:
+  delta_o_column: known_delta_o
+  weak_max: 150
+  medium_max: 300
+
+feature_columns:
+  - complex_name
+  - metal_symbol
+  - ligand_name
+  - coordination_number
+  - donor_electronegativity_mean
+  - donor_ionization_energy_mean
+  - donor_radius_mean
+  - donor_hardness_mean
+  - ligand_charge_density_proxy
+  - denticity
+  - donor_count
+  - known_delta_o
+  - known_log_kf
+  - geometry_label

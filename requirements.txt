@@ -1,0 +1,30 @@
+# Core scientific stack
+pandas
+numpy
+scikit-learn
+joblib
+
+# API backend
+fastapi
+uvicorn
+
+# UI (Streamlit)
+streamlit
+
+# YAML config support
+pyyaml
+
+# Optional but useful for ML workflows
+matplotlib
+seaborn
+
+# For parquet support (feature_matrix.parquet)
+pyarrow
+
+# For typing and validation
+pydantic
+
+# For HTTP requests (if API calls needed)
+requests
+joblib 
+pyyaml
