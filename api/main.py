@@ -15,17 +15,3 @@ app = FastAPI(
 # -----------------------------
 app.include_router(geometry_router)
 app.include_router(ligand_strength_router)
-
-# from fastapi import FastAPI
-# from api.routes.predict_geometry import router as geometry_router
-# from api.routes.predict_ligand_strength import router as ligand_strength_router
-
-# app.include_router(ligand_strength_router)
-
-
-# app = FastAPI(
-#     title="Coordination‑ML API",
-#     version="1.0"
-# )
-
-# app.include_router(geometry_router)
